@@ -2,6 +2,8 @@
 
 ### Notes
 
+#### Column vectors in `numpy`
+
 My first solution was _almost_ correct, but I failed to specify the `axis` when using `sum()`. This worked for a single column vector of values, but not for a two-dimensional matrix of values.
 
 ```python
@@ -21,9 +23,23 @@ np.sum(scores)  # => 53
 np.sum(scores, axis=0)  # => [ 6, 14, 15, 18]
 ```
 
+
+#### Personal ignorance in `numpy`
+
+Because I'm only just beginning to purposefully familiarize myself with the wealth of functionality in `numpy`, my original implementation of `softmax` was needlessly verbose:
+
+```python
+import math
+
+def softmax(x):
+    """Compute softmax values for each sets of scores in x."""
+    return pow(math.e, np.array(x)) / pow(math.e, np.array(x)).sum(0)
+```
+
+
 ### TODO
 
-* Need to take some time to really explore `numpy`.
+* Need to set aside some time to explore `numpy` on its own, in depth.
 
 ### Resources
 

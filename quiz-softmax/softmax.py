@@ -2,7 +2,6 @@
 
 """Softmax."""
 
-import math
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -13,12 +12,6 @@ scores = [3.0, 1.0, 0.2]
 #           [3, 8, 7, 6]]
 
 def softmax(x):
-    """Compute softmax values for each sets of scores in x."""
-
-    # Original solution—needlessly verbose (still learning numpy)
-    # return pow(math.e, np.array(x)) / pow(math.e, np.array(x)).sum(0)
-
-    # Instructor's solution
     return np.exp(x) / np.sum(np.exp(x), axis=0)
 
 
