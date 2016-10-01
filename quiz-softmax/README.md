@@ -39,7 +39,8 @@ def softmax(x):
 
 ### TODO
 
-* Need to set aside some time to explore `numpy` on its own, in depth.
+* Set aside some time to explore `numpy` on its own, in depth.
+* Also set aside time to explore `matplotlib` in depth.
 
 ### Resources
 
@@ -47,3 +48,4 @@ def softmax(x):
 * [`numpy` array methods](http://docs.scipy.org/doc/numpy/reference/arrays.ndarray.html#array-methods)
 * [`math` library documentation](https://docs.python.org/3/library/math.html)
 * [Summation (Wikipedia)](https://en.wikipedia.org/wiki/Summation)
+* [`matplotlib`](http://matplotlib.org)
