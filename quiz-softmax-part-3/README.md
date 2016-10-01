@@ -1,8 +1,3 @@
----
-Title: "Quiz: Softmax Part 3"
-Date: 2016-10-01
----
-
 ## Quiz: Softmax Part 3
 
 ### Notes
