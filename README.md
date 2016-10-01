@@ -2,4 +2,4 @@
 
 In which the author follows along with the Deep Learning course on Udacity.
 
-* [Quiz: Softmax](quiz-softmax/README.md)
+* [Quiz: Softmax](quiz-softmax/)
