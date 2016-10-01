@@ -4,7 +4,7 @@ In which the author follows along with the [Deep Learning][] course on [Udacity]
 
 ## Overview
 
-This project serves as my notebook while I follow along with the excellent (and free!) [Deep Learning][] course on [Udacity][].
+This project serves as my personal notebook while I follow along with the excellent (and free!) [Deep Learning][] course on [Udacity][].
 
 ## Contents
 
