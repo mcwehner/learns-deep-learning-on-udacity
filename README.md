@@ -12,6 +12,7 @@ This project serves as my personal notebook while I follow along with the excell
 * [Quiz: Softmax Part 2](quiz-softmax-part-2/)
 * [Quiz: Softmax Part 3](quiz-softmax-part-3/)
 * [Cross entropy](cross-entropy/)
+* [Assignment 2: SGD](assignment_2-sgd/)
 
 
 [Udacity]: https://www.udacity.com
